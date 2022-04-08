@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Out of this world</string>
+    <string-array name="oceania">
+        <item>Fiji</item>
+        <item>Guam</item>
+        <item>Samoa</item>
+        <item>New Zealand</item>
+    </string-array>
+    <string-array name="africa">
+        <item>Nigeria</item>
+        <item>Congo</item>
+        <item>Uganda</item>
+        <item>Chad</item>
+    </string-array>
+    <string-array name="asia">
+        <item>Sri Lanka</item>
+        <item>Thailand</item>
+        <item>Nepal</item>
+        <item>Kyrgystan</item>
+    </string-array>
+    <string-array name="southAmerica">
+        <item>Nicaragua</item>
+        <item>Honduras</item>
+        <item>Barbados</item>
+        <item>Uruguay</item>
+    </string-array>
+    <string-array name="Guam">
+        <item>https://www.uog.edu/</item>
+        <item>geo:13.43234, 144.80365?z=15</item>
+    </string-array>
+    <string-array name="Samoa">
+        <item>https://nus.edu.ws/</item>
+        <item>geo:-13.85232, -171.74973?z=15</item>
+    </string-array>
+    <string-array name="NewZealand">
+        <item>https://www.auckland.ac.nz/en.html</item>
+        <item>geo:-36.85085, 174.76860?z=15</item>
+    </string-array>
+    <string-array name="Nigeria">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=15</item>
+    </string-array>
+    <string-array name="Fiji">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.66843,177.40805?z=15</item>
+    </string-array>
+    <string-array name="Congo">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="Uganda">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="Chad">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="SriLanka">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="Thailand">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="Nepal">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="Kyrgystan">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="Nicaragua">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="Honduras">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="Barbados">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+    <string-array name="Uruguay">
+        <item>https://www.unifiji.ac.fj/</item>
+        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+    </string-array>
+</resources>
+
