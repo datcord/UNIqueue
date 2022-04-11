@@ -19,28 +19,45 @@
         android:id="@+id/website"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
         android:onClick="goToWeb"
-        android:text="site" />
+        android:text="site"
+        app:cornerRadius="20dp" />
 
     <Button
         android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
+        android:layout_below="@id/website"
+        android:layout_centerInParent="true"
         android:onClick="goToMap"
-        android:text="map" />
+        android:text="map"
+        app:cornerRadius="20dp" />
 
     <Button
         android:id="@+id/backbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="back"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
         android:onClick="Back"
+        android:text="back"
+        app:cornerRadius="10dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_height="70dp"
+        android:layout_below="@id/textView"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
         />
+
 
 </RelativeLayout>

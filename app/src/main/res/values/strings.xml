@@ -37,56 +37,56 @@
         <item>geo:-36.85085, 174.76860?z=15</item>
     </string-array>
     <string-array name="Nigeria">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=15</item>
+        <item>https://unilag.edu.ng/</item>
+        <item>geo:6.51663,3.38976?z=15</item>
     </string-array>
     <string-array name="Fiji">
         <item>https://www.unifiji.ac.fj/</item>
         <item>geo:-17.66843,177.40805?z=15</item>
     </string-array>
     <string-array name="Congo">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://www.umng.cg/</item>
+        <item>geo:-4.27553,15.25118?z=15</item>
     </string-array>
     <string-array name="Uganda">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://www.mak.ac.ug/</item>
+        <item>geo:0.33377,32.56749?z=15</item>
     </string-array>
     <string-array name="Chad">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://www.universite-ndjamena.td/</item>
+        <item>geo:12.13830,15.11038?z=15</item>
     </string-array>
     <string-array name="SriLanka">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://cmb.ac.lk/</item>
+        <item>geo:6.91933,79.86367?z=15</item>
     </string-array>
     <string-array name="Thailand">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://mahidol.ac.th/</item>
+        <item>geo:13.79521,100.32567?z=15</item>
     </string-array>
     <string-array name="Nepal">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://ku.edu.np/</item>
+        <item>geo:27.64401,85.53370?z=15</item>
     </string-array>
     <string-array name="Kyrgystan">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://www.ucentralasia.org/</item>
+        <item>geo:41.65708,75.77607?z=15</item>
     </string-array>
     <string-array name="Nicaragua">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://www.unan.edu.ni/</item>
+        <item>geo:12.11064,-86.26096?z=15</item>
     </string-array>
     <string-array name="Honduras">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://www.unah.edu.hn/</item>
+        <item>geo:14.08470,-87.16175?z=15</item>
     </string-array>
     <string-array name="Barbados">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://www.cavehill.uwi.edu/home</item>
+        <item>geo:13.13576,-59.62974?z=15</item>
     </string-array>
     <string-array name="Uruguay">
-        <item>https://www.unifiji.ac.fj/</item>
-        <item>geo:-17.6682081433807,177.40797783939246?z=8</item>
+        <item>https://udelar.edu.uy/portal/</item>
+        <item>geo:-34.89910,-56.17127?z=15</item>
     </string-array>
 </resources>
 

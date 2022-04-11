@@ -10,21 +10,27 @@
         android:id="@+id/continentsbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Search Country"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
         android:onClick="Continent"
 
-        />
+        android:text="Search University"
+        app:cornerRadius="20dp" />
 
     <Button
         android:id="@+id/exitbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="exit"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
         android:onClick="Exit"
-        />
+        android:text="exit"
+        app:cornerRadius="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/world" />
 </RelativeLayout>

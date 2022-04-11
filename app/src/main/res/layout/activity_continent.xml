@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,54 +8,64 @@
 
 
     <Button
+        android:id="@+id/oceaniaBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="oceania"
-        android:id="@+id/oceaniaBtn"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="158dp"
         android:onClick="continent"
+        android:text="oceania"
 
-        />
+        app:cornerRadius="20dp" />
+
     <Button
+        android:id="@+id/africabtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="africa"
-        android:id="@+id/africabtn"
         android:layout_below="@+id/oceaniaBtn"
         android:layout_centerHorizontal="true"
         android:onClick="continent"
+        android:text="africa"
 
-        />
+        app:cornerRadius="20dp" />
+
     <Button
+        android:id="@+id/asiaBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="asia"
-        android:id="@+id/asiaBtn"
         android:layout_below="@+id/africabtn"
         android:layout_centerHorizontal="true"
         android:onClick="continent"
+        android:text="asia"
 
-        />
+        app:cornerRadius="20dp" />
+
     <Button
+        android:id="@+id/southAmericaBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="South America"
-        android:id="@+id/southAmericaBtn"
         android:layout_below="@+id/asiaBtn"
         android:layout_centerHorizontal="true"
         android:onClick="continent"
+        android:text="South America"
 
-        />
+        app:cornerRadius="20dp" />
+
     <Button
         android:id="@+id/backbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="back"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
         android:onClick="Back"
-        />
+        android:text="back"
+        app:cornerRadius="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/world" />
 </RelativeLayout>

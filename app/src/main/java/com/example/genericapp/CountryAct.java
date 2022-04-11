@@ -7,6 +7,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.Button;
 import android.view.View;
+import android.widget.ImageView;
 
 public class CountryAct extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class CountryAct extends AppCompatActivity {
 
         String[] countries;
         Button[] buttons = new Button[4];
-        
+        ImageView continent = (ImageView) findViewById(R.id.imageView3);
         switch(intentValue){
             case "oceania":
                 countries = res.getStringArray(R.array.oceania);
@@ -32,6 +33,7 @@ public class CountryAct extends AppCompatActivity {
                 buttons[2].setText(countries[2]);
                 buttons[3] = (Button) findViewById(R.id.country4);
                 buttons[3].setText(countries[3]);
+                continent.setImageResource(R.drawable.oceania);
                 break;
             case "asia":
                 countries = res.getStringArray(R.array.asia);
@@ -43,6 +45,7 @@ public class CountryAct extends AppCompatActivity {
                 buttons[2].setText(countries[2]);
                 buttons[3] = (Button) findViewById(R.id.country4);
                 buttons[3].setText(countries[3]);
+                continent.setImageResource(R.drawable.asia);
                 break;
             case "africa":
                 countries = res.getStringArray(R.array.africa);
@@ -54,6 +57,7 @@ public class CountryAct extends AppCompatActivity {
                 buttons[2].setText(countries[2]);
                 buttons[3] = (Button) findViewById(R.id.country4);
                 buttons[3].setText(countries[3]);
+                continent.setImageResource(R.drawable.africa);
                 break;
             case "South America":
                 countries = res.getStringArray(R.array.southAmerica);
@@ -65,6 +69,7 @@ public class CountryAct extends AppCompatActivity {
                 buttons[2].setText(countries[2]);
                 buttons[3] = (Button) findViewById(R.id.country4);
                 buttons[3].setText(countries[3]);
+                continent.setImageResource(R.drawable.latinamerica);
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + intentValue);
