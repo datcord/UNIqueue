@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "genericApp"
+rootProject.name = "UNIqueue"
 include ':app'
